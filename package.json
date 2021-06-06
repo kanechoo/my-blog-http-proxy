@@ -1,0 +1,18 @@
+{
+  "name": "my-blog-http-proxy",
+  "version": "1.0.0",
+  "description": "My blog http proxy project",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node src/server/proxy-server.js",
+    "build": "node src/server/proxy-server.js"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "zhuqigong",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
