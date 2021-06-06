@@ -5,7 +5,7 @@
   "main": "proxy-server.js",
   "scripts": {
     "start": "node src/server/proxy-server.js",
-    "build": "node src/server/proxy-server.js"
+    "build": "nohup src/server/proxy-server.js &"
   },
   "keywords": [
     "blog"
